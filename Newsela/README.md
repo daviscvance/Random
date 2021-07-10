@@ -63,9 +63,10 @@ reason       227.0  0.044138  212.0  0.041997       9.0      9.0
 evidence      84.0  0.016333  206.0  0.040808      38.0     10.0
 
 Run these commands in order to reproduce with the newsela.zip contents:
-python3 -m pip install --user virtualenv
-python3 -m venv newsela_env
-source newsela_env/bin/activate
-pip install --upgrade pip
-python3 -m pip install -r requirements.txt
-python3 quiz_questions.py
+
+1. python3 -m pip install --user virtualenv
+2. python3 -m venv newsela_env
+3. source newsela_env/bin/activate
+4. pip install --upgrade pip
+5. python3 -m pip install -r requirements.txt
+6. python3 quiz_questions.py
