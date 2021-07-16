@@ -1,4 +1,4 @@
-# Newsela MLE
+# Newsela SWE/MLE
 
 Prompt: What words or phrases appear more frequently in questions that students tend to do poorly on, and what appear more frequently in questions that students do well on?
 
@@ -16,8 +16,8 @@ except, word, author, sentences, contains, important, people, include, reason, e
 
 The difference being some ordering and the terms: 
 
--   used and meaning for high ranking (where these were not in the low ranking top 10)
--   author and evidence for low ranking (where these were not in high ranking top 10)
+-   'used' and 'meaning' for high ranking (where these were not in the low ranking top 10)
+-   'author' and 'evidence' for low ranking (where these were not in high ranking top 10)
 
 Running the `quiz_questions.py` scripts will yield the following output:
 
@@ -36,7 +36,8 @@ Accuracy score for Naive Bayes: 0.5811672388425699
  High score Bot10 phrases: ['last year' 'california kingsnakes' 'friends' 'percentage'
  'whooping cranes' 'whooping' 'mcfadden' 'damage' 'guns' 'cranes']
 
- ========== Count Vectorization ======================================================================
+ ========== Count Vectorization =====================================================================
+
 success_lvl   high              low           high_rank low_rank
                sum      mean    sum      mean                   
 word         651.0  0.126580  439.0  0.086965       1.0      2.0
@@ -49,6 +50,8 @@ people       239.0  0.046471  250.0  0.049525       7.0      7.0
 sentences    236.0  0.045888  329.0  0.065174       8.0      4.0
 reason       227.0  0.044138  212.0  0.041997       9.0      9.0
 include      219.0  0.042582  236.0  0.046751      10.0      8.0
+
+
 success_lvl   high              low           high_rank low_rank
                sum      mean    sum      mean                   
 except       324.0  0.062998  541.0  0.107171       2.0      1.0
