@@ -37,7 +37,7 @@ Accuracy score for Naive Bayes: 0.5811672388425699
  'whooping cranes' 'whooping' 'mcfadden' 'damage' 'guns' 'cranes']
 
  ========== Count Vectorization =====================================================================
-
+```
 success_lvl   high              low           high_rank low_rank
                sum      mean    sum      mean                   
 word         651.0  0.126580  439.0  0.086965       1.0      2.0
@@ -64,6 +64,7 @@ people       239.0  0.046471  250.0  0.049525       7.0      7.0
 include      219.0  0.042582  236.0  0.046751      10.0      8.0
 reason       227.0  0.044138  212.0  0.041997       9.0      9.0
 evidence      84.0  0.016333  206.0  0.040808      38.0     10.0
+```
 
 Run these commands in order to reproduce with the newsela.zip contents:
 
