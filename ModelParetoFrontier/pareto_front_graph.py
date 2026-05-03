@@ -239,7 +239,7 @@ prop_marker = mlines.Line2D([], [], color='gray', marker='^', linestyle='None', 
 new_handles = handles + [open_marker, prop_marker]
 new_labels = labels + ['Open License (Circle)', 'Proprietary License (Triangle)']
 
-plt.title("Pareto Frontier with Uniform Green Labels for Specific Models", fontsize=18, pad=20)
+plt.title("Pareto Frontier with Labels", fontsize=26, pad=20)
 plt.xlabel("Blended Price (USD/1M Tokens) - Log Scale", fontsize=14)
 plt.ylabel("Intelligence Index", fontsize=14)
 plt.legend(handles=new_handles, labels=new_labels, title="Legend", bbox_to_anchor=(1.02, 1), loc='upper left')
